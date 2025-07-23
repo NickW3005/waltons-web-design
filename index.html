@@ -4,10 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/assets/images/favicon.ico" />
-    <link rel="stylesheet" type="text/css" href="/assets/styles/styles.css" />
+    <link rel="stylesheet" type="text/css" href="../assets/styles/styles.css" />
     <title>Waltons Web Design | Creating sites for you</title>
   </head>
   <body>
@@ -15,7 +14,9 @@
     <header>
       <img src="../assets/images/wwd-logo.png" alt="WWD Logo" class="Logo" />
       <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars-staggered"></i></label>
+      <label for="nav-toggle" class="nav-toggle-label"
+        ><i class="fa-solid fa-bars-staggered"></i
+      ></label>
       <nav>
         <ul id="menu">
           <li><a href="#">Home</a></li>
@@ -27,37 +28,68 @@
     <main>
       <section id="hero-section">
         <div class="img-container">
-            <h2>Waltons Web Design</h2>
+          <h2>Waltons Web Design</h2>
         </div>
-    </section>
-    <h2 class="about-heading">What we do!</h2>
-    <section id="about-section">
-      <div class="left-about-div">
-      <div class="about-div">
-        <h3><i class="fa-solid fa-code"></i> Custom website designs</h3>
-        <hr>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti, error alias odit modi veritatis nulla dicta veniam repellat!</p>
-      </div>
-      <div class="about-div">
-        <h3><i class="fa-solid fa-code"></i> Bring your buissness online</h3>
-        <hr>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti, error alias odit modi veritatis nulla dicta veniam repellat!</p>
-      </div>
-    </div>
-    <div class="about-img-container"></div>
-      <div class="right-about-div">
-      <div class="about-div">
-        <h3><i class="fa-solid fa-code"></i> Bring your buissness online</h3>
-        <hr>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti, error alias odit modi veritatis nulla dicta veniam repellat!</p>
-      </div>
-      <div class="about-div">
-        <h3><i class="fa-solid fa-code"></i> Bring your buissness online</h3>
-        <hr>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti, error alias odit modi veritatis nulla dicta veniam repellat!</p>
-      </div>
-      </div>
-    </section>
+      </section>
+      <h2 class="about-heading">What we do!</h2>
+      <section id="about-section">
+        <div class="left-about-div">
+          <div class="about-div">
+            <h3><i class="fa-solid fa-code"></i> Custom website designs</h3>
+            <hr />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti,
+              error alias odit modi veritatis nulla dicta veniam repellat!
+            </p>
+          </div>
+          <div class="about-div">
+            <h3><i class="fa-solid fa-code"></i> Bring your buissness online</h3>
+            <hr />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti,
+              error alias odit modi veritatis nulla dicta veniam repellat!
+            </p>
+          </div>
+        </div>
+        <div class="about-img-container"></div>
+        <div class="right-about-div">
+          <div class="about-div">
+            <h3><i class="fa-solid fa-code"></i> Bring your buissness online</h3>
+            <hr />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti,
+              error alias odit modi veritatis nulla dicta veniam repellat!
+            </p>
+          </div>
+          <div class="about-div">
+            <h3><i class="fa-solid fa-code"></i> Bring your buissness online</h3>
+            <hr />
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Temporibus, sunt. Corrupti,
+              error alias odit modi veritatis nulla dicta veniam repellat!
+            </p>
+          </div>
+        </div>
+      </section>
+      <h2 class="contact-heading">Get in touch!</h2>
+      <p>Fill in the form below to get in touch</p>
+      <section id="contact">
+        <div id="form-container">
+          <form action="MAILTO:nickwalton1989@outlook.com" method="post">
+            <label for="fname">First Name:</label><br />
+            <input type="text" name="fname" id="fname" placeholder="John" required /><br />
+            <label for="lname">Last Name:</label><br />
+            <input type="text" name="lname" id="lname" placeholder="Doe" required /><br />
+            <label for="email">Email:</label><br />
+            <input type="email" name="email" id="email" placeholder="Email" required /><br />
+            <label for="comments">Please give a brief description:</label>
+            <br />
+            <textarea name="comments" id="comments"></textarea><br />
+            <input type="submit" name="submit" id="submit" />
+          </form>
+        </div>
+        <div id="contact-img"></div>
+      </section>
     </main>
     <footer>footer</footer>
   </body>
